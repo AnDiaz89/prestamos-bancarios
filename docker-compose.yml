@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: prestamos-postgres
+    environment:
+      POSTGRES_DB: prestamos
+      POSTGRES_USER: prestamos
+      POSTGRES_PASSWORD: prestamos
+    ports:
+      - "5433:5432"
+    volumes:
+      - prestamos-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  prestamos-postgres-data:

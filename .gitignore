@@ -1,0 +1,34 @@
+# Java y Maven
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+
+# Angular y Node.js
+**/node_modules/
+**/dist/
+**/.angular/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE y sistema operativo
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs y archivos temporales
+*.log
+error-arranque.txt
+ultimo-error.log
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
